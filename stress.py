@@ -722,7 +722,8 @@ if begin.lower().strip() == 'yes':
     
     And the door was slammed in her face.
     
-        (knock again/don't knock again''')
+        (knock again/don't knock again)
+        ''')
                             t_eanswer = input()
                             if t_eanswer == "don't knock again":
                                 slow_type('. . .')

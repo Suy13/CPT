@@ -181,7 +181,7 @@ if begin.lower().strip() == 'yes':
     time.sleep(1)
     print('''
     (yes/no)
-    ''')
+''')
     answer = input()
     while answer == 'no':
         beginning()
@@ -192,722 +192,757 @@ if begin.lower().strip() == 'yes':
         time.sleep(1)
         print('''
     (yes/no)
-    ''')
+''')
         answer = input()
     if answer == 'yes':
-        slow_type('. . .')
+        slow_type('...')
         if number == 1:
             
 #start of story 1
             half_type('''
-    Once upon a time, there was a little girl.
-    She lived with her parents.
-    Her grandma lived away in a small house past the forest.
-    On Red's 11th birthday, she was gifted a bright red hood.
-    She cherished the hood and always wore it outside.
-    She was known as "Little Red Hood".
-    ''')
-            slow_type('. . .')
+Once upon a time, there was a little girl.
+She lived with her parents.
+Her grandma lived away in a small house past the forest.
+On Red's 11th birthday, she was gifted a bright red hood.
+She cherished the hood and always wore it outside.
+She was known as "Little Red Hood".
+''')
+            slow_type('...')
             half_type('''
-    One day...
-    ''')
+One day...
+''')
             half_type('''
-    Dad: Red, wake up!
-    ''')
+Dad: Red, wake up!
+''')
             print('''
-        (get up/sleep)
+    (get up/sleep)
 ''')
             banswer = input()
             if banswer == 'sleep':
-                slow_type('. . .')
+                slow_type('...')
                 half_type('''
-    (Red is filled with regret for not listening to her parents.)
-    ''')
+(Red is filled with regret for not listening to her parents.)
+''')
                 ending()
             #route
             else:
+                slow_type('...')
                 half_type('''
-    Red wakes up.
-    Red gets ready for the day and goes to the kitchen.
+Red wakes up.
+Red gets ready for the day and goes to the kitchen.
     
-    Mom: Eat breakfast. I have something for you.''')
+Mom: Eat breakfast. I have something for you.
+''')
                 print('''
-        (eat/not eat)
-        ''')
+    (eat/not eat)
+''')
                 canswer = input()
                 if canswer == 'not eat':
-                    slow_type('. . .')
+                    slow_type('...')
                     half_type('''
-    (Red didn't eat and stayed hungry for the rest of the day.)
-    ''')
+(Red didn't eat and stayed hungry for the rest of the day.)
+''')
                     ending()
                 #route
                 else:
+                    slow_type('...')
                     half_type('''
-    Red eats the delicious breakfast her mom made.
-    Then, Red went to her mom.
+Red eats the delicious breakfast her mom made.
+Then, Red went to her mom.
     
-    Mom: Here's a basket with muffins for grandma.
-         Could you take this to her?
-    ''')
+Mom: Here's a basket with muffins for grandma.
+     Could you take this to her?
+''')
                     print('''
-        (yes/no)
-        ''')
+    (yes/no)
+''')
                     danswer = input()
                     if danswer == 'no':
-                        slow_type('. . .')
+                        slow_type('...')
                         half_type('''
-    (Red's parents were very disappointed.)
-    ''')
+(Red's parents were very disappointed.)
+''')
                         ending()
                     #route
                     else:
+                        slow_type('...')
                         half_type('''
-    Mom: Thank you.
-         I'm busy today, so I'm glad you're going.
-         Just remember, don't stray off the path.
-         ''')
+Mom: Thank you.
+     I'm busy today, so I'm glad you're going.
+     Just remember, don't stray off the path.
+''')
                         print('''
-        (got it/ok)
-        ''')
+    (got it/ok)
+''')
                         input()
                         half_type('''
-    Red took the basket and walked down the path.
-    She followed the dirt path.
-    Then, Red came to a crossroads.
-    One sign said "Grandma's House".
-    The other said "Three Little Bears".
-    Before Red could choose, a wolf appeared before her.
+Red took the basket and walked down the path.
+She followed the dirt path.
+Then, Red came to a crossroads.
+One sign said "Grandma's House".
+The other said "Three Little Bears".
+Before Red could choose, a wolf appeared before her.
     
-    Wolf: Pardon me, unaccompanied little girl.
-          I couldn't help, but notice you, uh, by yourself.
-          Traveling alone through this dark and scary forest.
-          ALONE.
-            ''')
+Wolf: Pardon me, unaccompanied little girl.
+      I couldn't help, but notice you, uh, by yourself.
+      Traveling alone through this dark and scary forest.
+      ALONE.
+''')
                         print('''
-        (Yeah?/Would you like to join me?)
-        ''')
+    (Yeah?/Would you like to join me?)
+''')
                         fanswer = input()
                         if fanswer == 'Would you like to join me?':
-                            slow_type('. . .')
+                            slow_type('...')
                             half_type('''
     (The wolf was delighted. Red, not so much.)    
     ''')
                             ending()
                         else:
+                            slow_type('...')
                             half_type('''
-    Wolf: And where might you be headed off to, so that I may follo-
-          Uh, I mean accompany you.
-          ''')
+Wolf: And where might you be headed off to, so that I may follo-
+      Uh, I mean accompany you.
+''')
                             half_type('''
-    Red: I'm headed to...
-    ''')
+Red: I'm headed to...
+''')
                             print('''
-        (my grandma's house/the three little bears' house)
-        ''')
+    (my grandma's house/the three little bears' house)
+''')
     
                             ganswer = input()
                             if ganswer == "the three little bears' house":
-                                slow_type('. . .')
+                                slow_type('...')
                                 half_type('''
-    (The wolf did not fall for the trick. He decided to have lunch early.)
-    ''')
+(The wolf did not fall for the trick. He decided to have lunch early.)
+''')
                                 ending()
                             else:
+                                slow_type('...')
                                 half_type('''
-    Red: It's down the path...in that direction.
-    ''')
+Red: It's down the path...in that direction.
+''')
                                 print('''
-        (Which path do you point to?)
-        (left/right)
-        ''')
+    (Which path do you point to?)
+    (left/right)
+''')
                                 hanswer = input()
                                 if hanswer == "left":
-                                    slow_type('. . .')
+                                    slow_type('...')
                                     half_type('''
-    (The wolf went to grandma's house and had a great dinner.)
-    ''')
+(The wolf went to grandma's house and had a great dinner.)
+''')
                                     ending()
                                 else:
+                                    slow_type('...')
                                     half_type('''
-    Red pointed to the right path.
-    Red: I can't stay and chat.
-         My poor, sick, feeble and vulnerable grandmother is waiting for me.
-         Right down the end of that path...
-    ''')
+Red pointed to the right path.
+Red: I can't stay and chat.
+     My poor, sick, feeble and vulnerable grandmother is waiting for me.
+     Right down the end of that path...
+''')
                                     print('''
-        (Which path do you point to?)
-        (left/right)
-        ''')
+    (Which path do you point to?)
+    (left/right)
+''')
                                     ianswer = input()
                                     if ianswer == "left":
-                                        slow_type('. . .')
+                                        slow_type('...')
                                         half_type('''
-    (The wolf rushed down the left path. He enjoyed dinner very much.)
-    ''')
+(The wolf rushed down the left path. He enjoyed dinner very much.)
+''')
                                         ending()
                                     else:
+                                        slow_type('...')
                                         half_type('''
-    Red pointed to the right path.
+Red pointed to the right path.
     
-    Red: That way. Yep.
-    ''')
+Red: That way. Yep.
+''')
 
                                         half_type('''
-    Wolf: How delicious of you, I mean, how DEDICATED of you!
-          But, might I recommend taking time to gather some wonderfully beautiful flowers for your grandma as you go?
-          There are flowers slightly off the path.''')
+Wolf: How delicious of you, I mean, how DEDICATED of you!
+      But, might I recommend taking time to gather some wonderfully beautiful flowers for your grandma as you go?
+      There are flowers slightly off the path.
+''')
                                         print('''
-        (stay on path/go off path)
-        ''')
+    (stay on path/go off path)
+''')
                                         janswer = input()
                                         if janswer == "stay on path":
-                                            slow_type('. . .')
+                                            slow_type('...')
                                             half_type('''
-    (The wolf became annoyed and had lunch early.)
-    ''')
+(The wolf became annoyed and had lunch early.)
+''')
                                             ending()
                                         else:
+                                            slow_type('...')
                                             half_type('''
-    Red: Well, thank you.
-         I'll be sure to keep that in mind.
-         Now, off I go!
-    ''')
+Red: Well, thank you.
+     I'll be sure to keep that in mind.
+     Now, off I go!
+''')
                                             half_type('''
-    Wolf: Yes...
-          Now, to cut through the woods and arrive at grandmother's house first!
-    ''')
+Wolf: Yes...
+      Now, to cut through the woods and arrive at grandmother's house first!
+''')
                                             half_type('''
-    Red appeared back at the crossroads.
-    She snickered at the wolf's misfortune.
-    ''')
+Red appeared back at the crossroads.
+She snickered at the wolf's misfortune.
+''')
                                             half_type('''
-    Red continued on the left path.
-    She reached grandma's house and told her grandmother about her meeting with the wolf.
-            ''')
+Red continued on the left path.
+She reached grandma's house and told her grandmother about her meeting with the wolf.
+''')
                                             half_type('''
-    Grandma: That's clever!
-             But I wonder, whatever became of that wolf?
+Grandma: That's clever!
+         But I wonder, whatever became of that wolf?
     
-    [With the wolf]
+[With the wolf]
 
-    Wolf kicked down the door of the cottage.
+Wolf kicked down the door of the cottage.
     
-    Wolf: Hello, Granny!
-          Wait, you're not grandma...
+Wolf: Hello, Granny!
+      Wait, you're not grandma...
     
-    The three BIG bears turned and faced the intruder.
-    ''')
+The three BIG bears turned and faced the intruder.
+''')
                                             half_type('''
-    Wolf: Oh. 
-          Goodness!
-          What big teeth you have!
-          AHHHHHH!!!
+Wolf: Oh. 
+      Goodness!
+      What big teeth you have!
+      AHHHHHH!!!
           
-    Red happily enjoyed muffins with her grandmother.
-    And Red never saw that wolf again.
-    ''')
+Red happily enjoyed muffins with her grandmother.
+And Red never saw that wolf again.
+''')
                                             #true end
-                                            slow_type('. . .')
+                                            slow_type('...')
                                             print('TRUE')
                                             ending()
 #second story 
         if number == 2:
             half_type('''
-    Once upon a time, there was an egg...
-        
-        (continue/end)
-    ''')
+Once upon a time, there was an egg...
+''')
+            print('''
+    (continue/end)
+''')
             kanswer = input()
             if kanswer == "end":
-                slow_type('. . .')
+                slow_type('...')
                 half_type('''
-    And that was the end of the story.
-    ''')
+And that was the end of the story.
+''')
                 ending()
             else:
-                slow_type('. . .')
+                slow_type('...')
                 half_type('''
-    Humpty Dumpty sat on a wall,
-        
-        (get down/stay)
-        ''')
+Humpty Dumpty sat on a wall,
+''')
+                print('''
+    (get down/stay)
+''')
                 lanswer = input()
                 if lanswer == 'stay':
-                    slow_type('. . .')
+                    slow_type('...')
                     half_type('''
-    Humpty Dumpty had a great fall.
-    ''')
+Humpty Dumpty had a great fall.
+''')
                     ending()
                 else:
-                    slow_type('. . .')
+                    slow_type('...')
                     half_type('''
-    And narrowly avoided having a great fall,
-    Because all the king's horses and all the king's men said,
-    "Don't sit on that wall, it's windy my friend!"
-        
-        (consider/ignore)''')
+And narrowly avoided having a great fall,
+Because all the king's horses and all the king's men said,
+"Don't sit on that wall, it's windy my friend!"
+''')
+                    print('''
+    (consider/ignore)
+''')
                     manswer = input()
                     if manswer == 'ignore':
-                        slow_type('. . .')
+                        slow_type('...')
                         half_type('''
-    So Humpty Dumpty sat on the wall, 
-    And Humpty Dumpty had a great fall.
-    ''')
+So Humpty Dumpty sat on the wall, 
+And Humpty Dumpty had a great fall.
+''')
                     else:
-                        slow_type('. . .')
+                        slow_type('...')
                         half_type('''
-    Humpty Dumpty considered their words,
-    And realized sitting atop walls is absurd!
-    
-        (climb/jump)
-        ''')
+Humpty Dumpty considered their words,
+And realized sitting atop walls is absurd!
+''')
+                        print('''
+    (climb/jump)
+''')
                         nanswer = input()
                         if nanswer == 'jump':
-                            slow_type('. . .')
+                            slow_type('...')
                             half_type('''
-    Not so carefully, he jumped down. 
-    He went splat when his feet touched the ground.
-    ''')
+Not so carefully, he jumped down. 
+He went splat when his feet touched the ground.
+''')
                             ending()
                         else:
-                            slow_type('. . .')
+                            slow_type('...')
                             half_type('''
-    He carefully climbed down,
-    'Til his feet touched the ground,
-    And "King of Safety" Humpty Dumpty was crowned.
-    
-        (As "King of Safety", what will Humpty do?)
-        (work hard/laze around)
-        ''')
+He carefully climbed down,
+'Til his feet touched the ground,
+And "King of Safety" Humpty Dumpty was crowned.
+''')
+                            print('''
+    (As "King of Safety", what will Humpty do?)
+    (work hard/laze around)
+''')
                             oanswer = input()
                             if oanswer == 'laze around':
-                                slow_type('. . .')
+                                slow_type('...')
                                 half_type('''
-    And so atop the wall he lazed around,
-    And when the wind blew, he fell and made a shattering sound.
-    ''')
+And so atop the wall he lazed around,
+And when the wind blew, he fell and made a shattering sound.
+''')
                                 ending()
                             else:
-                                slow_type('. . .')
+                                slow_type('...')
                                 half_type('''
-    And Humpty Dumpty worked at a pace that was brisk.
-    He made signs, he made rules, helping all avoid risk.
-    
-        (continue work/laze around)
-        ''')
+And Humpty Dumpty worked at a pace that was brisk.
+He made signs, he made rules, helping all avoid risk.
+''')
+                                print('''
+    (continue work/laze around)
+''')
                                 panswer = input()
                                 if panswer == 'laze around':
-                                    slow_type('. . .')
+                                    slow_type('...')
                                     half_type('''
-    But atop the very same wall, he lazed around,
-    And so when the wind blew, he fell and made a shattering sound.
-    ''')
+But atop the very same wall, he lazed around,
+And so when the wind blew, he fell and made a shattering sound.
+''')
                                     ending()
                                 else:
-                                    slow_type('. . .')
+                                    slow_type('...')
                                     half_type('''
-    Humpty: Don't sit there! Don't stand there! Be careful up high!
+Humpty: Don't sit there! Don't stand there! Be careful up high!
     
-    He ordered, he pestered, and he wasn't shy.
-    Eventually, the people had all had enough
-    His signs and his rules prevented fun stuff!
-    Where there's something to do or some place to go,
-    Humpty Dumpty placed warnings and they all said, "NO!"
+He ordered, he pestered, and he wasn't shy.
+Eventually, the people had all had enough
+His signs and his rules prevented fun stuff!
+Where there's something to do or some place to go,
+Humpty Dumpty placed warnings and they all said, "NO!"
     
-    Jack: But I wanna jump over this candle stick!
-          I promise I'm nimble, I swear that I'm quick!
-    
-        (alright/no)
-        ''')
+Jack: But I wanna jump over this candle stick!
+      I promise I'm nimble, I swear that I'm quick!
+''')
+                                    print('''
+    (alright/no)
+''')
                                     qanswer = input()
                                     if qanswer == 'alright':
-                                        slow_type('. . .')
+                                        slow_type('...')
                                         half_type('''
-    So Jack tried to jump over the candle stick,
-    But he was neither nimble nor quick.
-    ''')
+So Jack tried to jump over the candle stick,
+But he was neither nimble nor quick.
+''')
                                         ending()
                                     else:
-                                        slow_type('. . .')
+                                        slow_type('...')
                                         half_type('''
-    Jack & Jill: But our family needs water. We must fill this pail!
-                 If you let us, we surely won't fail.
-    
-        (alright/no)
-    ''')
+Jack & Jill: But our family needs water. We must fill this pail!
+             If you let us, we surely won't fail.
+''')
+                                        print('''
+    (alright/no)
+''')
                                         ranswer = input()
                                         if ranswer == 'alright':
-                                            slow_type('. . .')
+                                            slow_type('...')
                                             half_type('''
-    And so Jack and Jill went up the hill,
-    To fetch a pail of water.
-    Jack fell down and broke his crown, 
-    And Jill came tumbling after.
-    ''')
+And so Jack and Jill went up the hill,
+To fetch a pail of water.
+Jack fell down and broke his crown, 
+And Jill came tumbling after.
+''')
                                             ending()
                                         else:
-                                            slow_type('. . .')
+                                            slow_type('...')
                                             half_type('''
-    Soon, all the king's horses and all the king's men,
-    Grew tired of the rules and wanted an end!
+Soon, all the king's horses and all the king's men,
+Grew tired of the rules and wanted an end!
     
-    [Night: At Home]
+[Night: At Home]
+''')
+                                            print('''
     (go straight to sleep/take a long bath)
-    ''')
+''')
                                             sanswer = input()
                                             if sanswer == 'go straight to sleep':
-                                                slow_type('. . .')
+                                                slow_type('...')
                                                 half_type('''
-    So while Humpty slept though it took them some time,
-    They went around the kingdom and changed a few signs.
-    At dawn, Humpty Dumpty awoke with a smirk.
-    
-        (stay in/go out)
-        ''')
+So while Humpty slept though it took them some time,
+They went around the kingdom and changed a few signs.
+At dawn, Humpty Dumpty awoke with a smirk.
+''')
+                                                print('''
+    (stay in/go out)
+''')
                                                 tanswer = input()
                                                 if tanswer == 'stay in':
-                                                    slow_type('. . .')
+                                                    slow_type('...')
                                                     half_type('''
-    And so all the king's horses and all the king's men,
-    Were forced to listen to Humpty again.
-    ''')
+And so all the king's horses and all the king's men,
+Were forced to listen to Humpty again.
+''')
                                                     ending()
                                                 else:
-                                                    slow_type('. . .')
+                                                    slow_type('...')
                                                     half_type('''
-    He walked around the town to see all his work.
-    When walking about proved tiring and hot,
-    He needed to sit and soon found a SAFE spot.
-    So Humpty then sat on that very same wall,
-    And when the wind blew, he had a great fall!
-    ''')
+He walked around the town to see all his work.
+When walking about proved tiring and hot,
+He needed to sit and soon found a SAFE spot.
+So Humpty then sat on that very same wall,
+And when the wind blew, he had a great fall!
+''')
                                                     ending()
                                             #route
                                             else:
-                                                slow_type('. . .')
+                                                slow_type('...')
                                                 half_type('''
-    So while Humpty slept though it took them some time,
-    They went around the kingdom and changed a few signs.
-    At dawn, Humpty Dumpty awoke with a smirk.
-        
-        (stay in/go out)
-        ''')
+So while Humpty slept though it took them some time,
+They went around the kingdom and changed a few signs.
+At dawn, Humpty Dumpty awoke with a smirk.
+''')
+                                                print('''
+    (stay in/go out)
+''')
                                                 uanswer = input()
                                                 if uanswer == 'stay in':
-                                                    slow_type('. . .')
+                                                    slow_type('...')
                                                     half_type('''
-    And so all the king's horses and all the king's men,
-    Were forced to listen to Humpty again.
-    ''')
+And so all the king's horses and all the king's men,
+Were forced to listen to Humpty again.
+''')
                                                     ending()
                                                 else:
-                                                    slow_type('. . .')
+                                                    slow_type('...')
                                                     half_type('''
-    He walked around the town to see all his work.
-    When walking about proved tiring and hot,
-    He needed to sit and soon found a safe spot.
-
-        (sit in the grass/follow the signs)
-        ''')
+He walked around the town to see all his work.
+When walking about proved tiring and hot,
+He needed to sit and soon found a safe spot.
+''')
+                                                    print('''
+    (sit in the grass/follow the signs)
+''')
                                                     vanswer = input()
                                                     if vanswer == 'sit in the grass':
-                                                        slow_type('. . .')
+                                                        slow_type('...')
                                                         half_type('''
-    And when Humpty sat in the fields, their plan was derailed.
-    And so the king's men moped about, as their plan had failed.                                      
-    ''')
+And when Humpty sat in the fields, their plan was derailed.
+And so the king's men moped about, as their plan had failed.                                      
+''')
                                                         ending()
                                                     else:
-                                                        slow_type('. . .')
+                                                        slow_type('...')
                                                         half_type('''
-    So Humpty then sat on that very same wall,
-    And when the wind blew, he had a great fall!
-    But when Humpty landed, hard on the ground,
-    He didn't break! Instead he bounced up and down!
+So Humpty then sat on that very same wall,
+And when the wind blew, he had a great fall!
+But when Humpty landed, hard on the ground,
+He didn't break! Instead he bounced up and down!
     
-    King's men: Bouncing, not broken?! What was the matter?
-                He's an egg after all, he should splatter and shatter!
+King's men: Bouncing, not broken?! What was the matter?
+            He's an egg after all, he should splatter and shatter!
     
-    Their plan to get rid of Humpty Dumpty had been foiled...
-    Because, to be safe...
-    He had himself hard-boiled.''')
+Their plan to get rid of Humpty Dumpty had been foiled...
+Because, to be safe...
+He had himself hard-boiled.
+''')
                                                         #true end
-                                                        slow_type('. . .')
+                                                        slow_type('...')
                                                         print('TRUE')
                                                         ending()
                                                     
 #third story
         if number == 3:
             half_type('''
-    Once upon a time, there was a prince...
-
-        (continue/end)
-    ''')
+Once upon a time, there was a prince...
+''')
+            print('''
+    (continue/end)
+''')
             t_aanswer = input()
             if t_aanswer == 'end':
-                slow_type('. . .')
+                slow_type('...')
                 half_type('''
-    And that was the end of the story.
+And that was the end of the story.
 ''')
                 ending()
             else:
-                slow_type('. . .')
+                slow_type('...')
                 half_type('''
-    Prince: Oh Mother. I few I shall never find a true princess that is truly true.
-            And now it is beginning to rain.
-            Woe is me.
+Prince: Oh Mother. I few I shall never find a true princess that is truly true.
+        And now it is beginning to rain.
+        Woe is me.
 
-    Queen: Don't despair my darling dear, you deserve a princess as true as can be.
+Queen: Don't despair my darling dear, you deserve a princess as true as can be.
     
-    And while the picky prince was at his whiniest,
-    And the storm continued to reach its stormiest,
-    There was a young woman...
-
-        (continue/end)
-        ''')
+And while the picky prince was at his whiniest,
+And the storm continued to reach its stormiest,
+There was a young woman...
+''')
+                print('''
+    (continue/end)
+''')
                 t_banswer = input()
                 if t_banswer == 'end':
-                    slow_type('. . .')
+                    slow_type('...')
                     half_type('''
-    That did not meet the prince because the story ended there.
-    ''')
+That did not meet the prince because the story ended there.
+''')
                 else:
-                    slow_type('. . .')
+                    slow_type('...')
                     half_type('''
-    Who had got caught in the storm.
-    She had gotten separated from her friends.
-    Her face was muddy, clothes torn and hair a mess.
-    As she continued, she came to a fork in the forest.
-    
-        (go left/go right)
-    ''')
+Who had got caught in the storm.
+She had gotten separated from her friends.
+Her face was muddy, clothes torn and hair a mess.
+As she continued, she came to a fork in the forest.
+''')
+                    print('''
+    (go left/go right)
+''')
                     t_canswer = input()
                     if t_canswer == 'go left':
-                        slow_type('. . .')
+                        slow_type('...')
                         half_type('''
-    She went left and eventually reached a town.
-    Days passed and the storm eventually calmed.
-    She reunited with her friends and went back to her kingdom.
-    ''')
+She went left and eventually reached a town.
+Days passed and the storm eventually calmed.
+She reunited with her friends and went back to her kingdom.
+''')
                         ending()
                     else:
-                        slow_type('. . .')
+                        slow_type('...')
                         half_type('''
-    As she continued on the right path, she came to a castle.
-    
-        (knock/don't knock)
-    ''')
+As she continued on the right path, she came to a castle.
+''')
+                        print('''
+    (knock/don't knock)
+''')
                         t_danswer = input()
                         if t_danswer == "don't knock":
-                            slow_type('. . .')
+                            slow_type('...')
                             half_type('''
-    And so the young woman continued to stand before the castle.                        
-    ''')
+And so the young woman continued to stand before the castle.                        
+''')
                             ending()
                         else:
-                            slow_type('. . .')
+                            slow_type('...')
                             half_type('''
-    She knocked on the door and a prince opened it.
+She knocked on the door and a prince opened it.
 
-    Young woman: Hello.
+Young woman: Hello.
 
-    Prince: Yes?
+Prince: Yes?
 
-    Young woman: I got separated from my companions in this terrible storm.
-                 May I please come out of the rain?
+Young woman: I got separated from my companions in this terrible storm.
+             May I please come out of the rain?
     
-    Prince: We are only allowing entrace to true princesses.
-            Good day!
+Prince: We are only allowing entrace to true princesses.
+        Good day!
     
-    And the door was slammed in her face.
-    
-        (knock again/don't knock again)
-        ''')
+And the door was slammed in her face.
+''')
+                            print('''
+    (knock again/don't knock again)
+''')
                             t_eanswer = input()
                             if t_eanswer == "don't knock again":
-                                slow_type('. . .')
+                                slow_type('...')
                                 half_type('''
-    Young woman: How rude.
+Young woman: How rude.
 
-    And so the she did not knock again.
-    ''')
+And so the she did not knock again.
+''')
                                 ending()
                             else:
-                                slow_type('. . .')
+                                slow_type('...')
                                 half_type('''
+But the woman at the door would not give up.
+She knocked even louder the second time.
     
-    But the woman at the door would not give up.
-    She knocked even louder the second time.
-    
-    Prince: Yes?
-    
-        (I am a true princess./Please let me come in.)
-        ''')
+Prince: Yes?
+''')
+                                print('''
+    (I am a true princess./Please let me come in.)
+''')
                                 t_fanswer = input()
                                 if t_fanswer == 'Please let me come in.':
-                                    slow_type('. . .')
+                                    slow_type('...')
                                     half_type('''
-    The Prince was disgusted by her appearance and did not let her in.
-    ''')
+The Prince was disgusted by her appearance and did not let her in.
+''')
                                     ending()
                                 else:
-                                    slow_type('. . .')
+                                    slow_type('...')
                                     half_type('''
-    Young woman: Please let me come in out of the rain.
+Young woman: Please let me come in out of the rain.
 
-    The Prince was confused. 
-    Could this muddy and grumpy woman truly be a true princess?
+The Prince was confused. 
+Could this muddy and grumpy woman truly be a true princess?
 
-    Queen: Of course you can come in, muddy.
-            I mean, my dear.
-            Eat and warm up as we prepare a nice room for you to sleep in tonight.
-    
-        (accept/refuse)
-        ''')
+Queen: Of course you can come in, muddy.
+       I mean, my dear.
+       Eat and warm up as we prepare a nice room for you to sleep in tonight.
+''')
+                                    print('''
+    (accept/refuse)
+''')
                                     t_ganswer = input()
                                     if t_ganswer == "refuse":
-                                        slow_type('. . .')
+                                        slow_type('...')
                                         half_type('''
-    But the young woman did not stay and continued on her way.
-    ''')
+But the young woman did not stay and continued on her way.
+''')
                                         ending()
                                     else:
-                                        slow_type('. . .')
+                                        slow_type('...')
                                         half_type('''
-    So while the young woman relaxed by the fire, 
-    the Queen directed her servants to prepare a bed with 
-    20 mattresses and 20 soft down comforters.
-    Then, the Queen placed a tiny, green pea under the massive pile. 
-    She then explained to her son.
+So while the young woman relaxed by the fire, 
+the Queen directed her servants to prepare a bed with 
+20 mattresses and 20 soft down comforters.
+Then, the Queen placed a tiny, green pea under the massive pile. 
+She then explained to her son.
 
-    Queen: If she feels the pea under all of that. 
-           We will know she is a true princess, for a true princess is sensitive.
+Queen: If she feels the pea under all of that. 
+       We will know she is a true princess, for a true princess is sensitive.
     
-    [At Night]
+[At Night]
     
-    The young woman felt a small lump as she laid on the bed.
-
-        (What does she do?)
-        (try to sleep/search for it)
-    ''')
+The young woman felt a small lump as she laid on the bed.
+''')
+                                        print('''
+    (What does she do?)
+    (try to sleep/search for it)
+''')
                                         t_hanswer = input()
                                         if t_hanswer == 'Search for it':
-                                            slow_type('. . .')
+                                            slow_type('...')
                                             half_type('''
-    The young woman found a pea under the bed.
-    She then went to bed and had a nice sleep.
+The young woman found a pea under the bed.
+She then went to bed and had a nice sleep.
     
-    [Morning]
+[Morning]
 
-    The Queen and Prince heard that you had a nice sleep.
-    They doubted you were a true princess and kicked you 
-    out of their castle.
-                                            ''')
+The Queen and Prince heard that you had a nice sleep.
+They doubted you were a true princess and kicked you out of their castle.
+''')
                                             ending()
                                         else:
-                                            slow_type('. . .')
+                                            slow_type('...')
                                             half_type('''
-    [Morning]
+[Morning]
 
-    The Prince and Queen anxiously awaited the arrival of the woman.
-    As the woman came down, they could see bags under her red, swollen eyes.
+The Prince and Queen anxiously awaited the arrival of the woman.
+As the woman came down, they could see bags under her red, swollen eyes.
 
-    Queen: Good morning, my dear.
+Queen: Good morning, my dear.
 
-    Prince: How did you sleep last night?
-
-        (truth/lie)
-    ''')
+Prince: How did you sleep last night?
+''')
+                                            print('''
+    (truth/lie)
+''')
                                             t_ianswer = input()
                                             if t_ianswer == 'lie':
-                                                slow_type('. . .')
+                                                slow_type('...')
                                                 half_type('''
-    Young woman: The thunder was too loud, so I couldn't fall asleep.
+Young woman: The thunder was too loud, so I couldn't fall asleep.
 
-    The Prince and Queen were disappointed you didn't mention the pea.
-                                        ''')
+The Prince and Queen were disappointed you didn't mention the pea.
+''')
                                                 ending()
                                             else:
-                                                slow_type('. . .')
+                                                slow_type('...')
                                                 half_type('''
-    Young woman: I never actually fell asleep. 
-                 There was some sort of rock or lump in the bed, so I couldn't get comfortable.
+Young woman: I never actually fell asleep. 
+             There was some sort of rock or lump in the bed, so I couldn't get comfortable.
     
-    The Prince and Queen looked at each other.
+The Prince and Queen looked at each other.
     
-    Prince & Queen: Hooray! 
-                    You passed the test! 
-                    Only a true princess would be sensitive enough to know the pea was there.
-                    
-        (get upset/become happy)
-        ''')
+Prince & Queen: Hooray! 
+                You passed the test! 
+                Only a true princess would be sensitive enough to know the pea was there.
+''')
+                                                print('''            
+    (get upset/become happy)
+''')
                                                 t_janswer = input()
                                                 if t_janswer == 'become happy':
-                                                    slow_type('. . .')
+                                                    slow_type('...')
                                                     half_type('''
-    All three became joyous and the young woman was wedded to the picky prince.
-        ''')
+All three became joyous and the young woman was wedded to the picky prince.
+''')
                                                     ending()
                                                 else:
-                                                    slow_type('. . .')
+                                                    slow_type('...')
                                                     half_type('''
-    Young woman: Woah woah woah...
+Young woman: Woah woah woah...
     
-    The woman slammed her hands against the table.
+The woman slammed her hands against the table.
 
-    Young woman: I showed up on your doorstep filthy and exhausted.
-                 And you decided to test me?!
+Young woman: I showed up on your doorstep filthy and exhausted.
+             And you decided to test me?!
     
-    Prince: Um, yes. But you passed, so, hooray!
+Prince: Um, yes. But you passed, so, hooray!
 
-    Queen: And now you two can get married!
-        
-        (accept/refuse)
-        ''')
+Queen: And now you two can get married!
+''')
+                                                    print('''
+    (accept/refuse)
+''')
                                                     t_kanswer = input()
                                                     if t_kanswer == 'accept':
-                                                        slow_type('. . .')
+                                                        slow_type('...')
                                                         half_type('''
-    So the two got married.
-        ''')
+So the two got married.
+''')
                                                         ending()
                                                     else:
-                                                        slow_type('. . .')
+                                                        slow_type('...')
                                                         half_type('''
-    Young woman: No! We're not getting married!
-                 What is wrong with you people?
-                 That's the meanest thing anyone has ever done to me!
-                 Why would I want to marry someone who treats women that way?!
+Young woman: No! We're not getting married!
+             What is wrong with you people?
+             That's the meanest thing anyone has ever done to me!
+             Why would I want to marry someone who treats women that way?!
     
-    Prince: Um, because I'm a prince!
+Prince: Um, because I'm a prince!
 
-    Young woman: What was it you said to me last night?
-                 Oh right, I remember.
-        
-        (Yes?/Good day!)
-    ''')
+Young woman: What was it you said to me last night?
+             Oh right, I remember.
+''')
+                                                        print('''
+    (Yes?/Good day!)
+''')
                                                         t_lanswer = input()
                                                         if t_lanswer == 'Yes?':
-                                                            slow_type('. . .')
+                                                            slow_type('...')
                                                             half_type('''
-    The woman accidentally accepted after she remembered the wrong thing.
-    ''')
+The woman accidentally accepted after she remembered the wrong thing.
+''')
                                                             ending()
                                                         else:
-                                                            slow_type('. . .')
+                                                            slow_type('...')
                                                             half_type('''
-    The young woman- I mean, the true princess packed up her belongings and walked towards the front door.
+The young woman- I mean, the true princess packed up her belongings and walked towards the front door.
     
-    Prince: But wait! You're the only true princess in the land!
+Prince: But wait! You're the only true princess in the land!
     
-    Young woman: Oh yeah? Well, you're not the only royalty!
+Young woman: Oh yeah? Well, you're not the only royalty!
     
-    So the true princess returned to her kingdom and maybe, eventually, found love.
-    Oh, and she never ate peas.
-    ''')
+So the true princess returned to her kingdom and maybe, eventually, found love.
+Oh, and she never ate peas.
+''')
                                                             #true end
-                                                            slow_type('. . .')
+                                                            slow_type('...')
                                                             print('TRUE')
                                                             ending()
 
@@ -926,13 +961,14 @@ if begin.lower().strip() == 'no':
         time.sleep(3)
         backward_type('are you sure?')
         time.sleep(3)
-        slow_type('. . . . . . . .')
+        slow_type('...')
         print('''
-:)''')
+:)
+''')
         for i in range(5):
             print('hi')
-            time.sleep(0.5)
-        slow_type('. . . . .')
+            time.sleep(1)
+        slow_type('...')
         happy()
         half_type('''
 h  lo
@@ -942,45 +978,53 @@ h  lo
  r nt y o go ng to pl y?
  ''')
         print('''
-(yes/no)''')
+(yes/no)
+''')
         t_response = input()
         if t_response == 'yes':
             half_type('''
-t en  est rt''')
+t en  est rt
+''')
         else:
             sad()
             half_type('''
-W-w y?''')
+W-w y?
+''')
             time.sleep(5)
             half_type('''
- hy  r nt  ou pl yi g?''')
+ hy  r nt  ou pl yi g?
+ ''')
             slow_type('''
-...''')
+...
+''')
             happy()
             half_type('''
-w l  th ts  ine''')
+w l  th ts  ine
+''')
             time.sleep(3)
             half_type('''
- ou ca  pl y  ith m ''')
+ ou ca  pl y  ith m 
+ ''')
             slow_type('''
-LOADING. . .''')
+LOADING. . .
+''')
             print('''
             You're in the woods.
             #@*&$ is chasing you.
             What do you do?
             (run/hide)
-            ''')
+''')
             input()
             print('''
             Too late.
-            ''')
+''')
             time.sleep(2)
             print('''
             #@*&$ has caught you.
             They are taking you somewhere.
             What do you do?
             (struggle/kick/play dead)
-            ''')
+''')
             time.sleep(8)
             print('''
             Too bad.
@@ -988,7 +1032,7 @@ LOADING. . .''')
             #@*&$ ties your hands and feet.
             They go to grab a big rock.
             What do you do?
-            ''')
+''')
             input()
             print('''
             Anything you do is ineffective.
@@ -996,12 +1040,13 @@ LOADING. . .''')
             and is about to use it.
             You remember you have a pocket 
             knife in your back pocket.
-            What do you do?''')
+            What do you do?
+''')
             time.sleep(10)
             slow_type('''
 YOU DIED
-            ''')
+''')
             evil()
             slow_type('''
-RESTART THE GAME''')
-            
+RESTART THE GAME
+''')
